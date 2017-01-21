@@ -1,0 +1,5 @@
+<% site.pages.forEach(function(page, i){ %>
+  <% if (page.title === 'index') { %>
+  <p><%- page.content%></p>
+  <%}%>
+<%})%>
